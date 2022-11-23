@@ -1,0 +1,610 @@
+ /* CSS GENERAL*/
+
+ /* mobile fisrt 0px-500px*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: #FFF6E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    text-align: center; /*SOLO PARA TEXTO */
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*ver todo el alto de la pantalla*/
+}
+
+h1{
+    padding-top: 10px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF6E5;
+}
+
+h2{
+    padding-top: 25px;
+}
+
+p{
+    padding: 15px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(50, 57, 69);
+    color: rgb(230, 197, 138);
+    padding: 50px;
+}
+
+.color{
+    padding: 25px;
+    background-color: rgb(50, 57, 69);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(230, 197, 138);
+    font-size: 15px;
+}
+
+.button-color{
+    color: rgb(230, 197, 138);
+}
+
+.foto-header{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.all{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF6E5;
+}
+
+.ani-nav:hover{
+    text-decoration: underline;
+    color: #FFF6E5;
+}
+
+.color-nav{
+    color: rgb(230, 197, 138);
+}
+
+.color-nav:hover{
+    color: #FFF6E5;
+}
+
+.redes{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+/* CSS INICIO */
+
+.mobile-home{
+    padding: 110px 5px 110px 5px;
+}
+
+/* CSS NOSOTROS */
+
+.img-cont{ 
+    justify-items: center;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.nosotros2{
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS VINOS */
+
+h4{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.lugar-origen{
+    text-align: center;
+}
+
+.text-vinos{
+    padding-top: 0;
+}
+
+/* CSS EVENTOS */
+
+.link-texto:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* CSS REGISTRATE */
+
+.q-registrate{
+    text-align: center;
+}
+
+.formulario{
+    margin: 15px 60px 15px 60px;
+    border: 0.5px solid rgb(50, 57, 69);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+/* DECLARACIÓN GRID AREAS */
+
+nav{
+    grid-area: nav;
+}
+
+h1{
+    grid-area: h1;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.foto-header{
+    grid-area: header;
+}
+
+.sec-inicio{
+    grid-area: carousell;
+}
+
+.section-nosotros{
+    grid-area: contenido-nosotros;
+}
+
+.nosotros-img2{
+    grid-area: nosotros-ft2;
+}
+
+.nosotros-h2{
+    grid-area: nosotros-h2;
+}
+
+.nosotros-p{
+    grid-area: nosotros-p;
+}
+
+.nosotros-img1{
+    grid-area: nosotros-ft1;
+}
+
+.riesling{
+    grid-area: riesling;
+}
+
+.riesling-contenido{
+    grid-area: riesling-contenido;
+}
+
+.riesling-h2{
+    grid-area: riesling-h2;
+}
+
+.riesling-img{
+    grid-area: riesling-img;
+}
+
+.riesling-p1{
+    grid-area: riesling-p1;
+}
+
+.riesling-h41{
+    grid-area: riesling-h41;
+}
+
+.riesling-p2{
+    grid-area: riesling-p2;
+}
+
+.riesling-h42{
+    grid-area: riesling-h42;
+}
+
+.riesling-p3{
+    grid-area: riesling-p3;
+}
+
+.malbec{
+    grid-area: malbec;
+}
+
+.malbec-contenido{
+    grid-area: malbec-contenido;
+}
+
+.malbec-h2{
+    grid-area: malbec-h2;
+}
+
+.malbec-img{
+    grid-area: malbec-img;
+}
+
+.malbec-p1{
+    grid-area: malbec-p1;
+}
+
+.malbec-h41{
+    grid-area: malbec-h41;
+}
+
+.malbec-p2{
+    grid-area: malbec-p2;
+}
+
+.malbec-h42{
+    grid-area: malbec-h42;
+}
+
+.malbec-p3{
+    grid-area: malbec-p3;
+}
+
+.tannat{
+    grid-area: tannat;
+}
+
+.tannat-contenido{
+    grid-area: tannat-contenido;
+}
+
+.tannat-h2{
+    grid-area: tannat-h2;
+}
+
+.tannat-img{
+    grid-area: tannat-img;
+}
+
+.tannat-p1{
+    grid-area: tannat-p1;
+}
+
+.tannat-h41{
+    grid-area: tannat-h41;
+}
+
+.tannat-p2{
+    grid-area: tannat-p2;
+}
+
+.tannat-h42{
+    grid-area: tannat-h42;
+}
+
+.tannat-p3{
+    grid-area: tannat-p3;
+}
+
+.eventos-img1{
+    grid-area: eventos-img1;
+}
+
+.eventos-p{
+    grid-area: eventos-p;
+}
+
+.eventos-img2{
+    grid-area: eventos-img2;
+}
+
+/*GRID AREA INICIO*/
+
+.inicio-grid{
+    background-color: #FFF6E5;
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "carousell"
+    "footer";
+}
+
+/* GRID AREA NOSOTROS*/
+
+.nosotros-grid{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "h1"
+    "contenido-nosotros"
+    "footer";
+}
+
+/*GRID AREA VINOS*/
+
+.vinos-grid{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "h1"
+    "riesling"
+    "malbec"
+    "tannat"
+    "footer";
+}
+
+/*GRID AREA EVENTOS*/
+
+.eventos-grid{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "h1"
+    "eventos-img1"
+    "eventos-p"
+    "eventos-img2"
+    "footer";
+}
+
+/*500px en adelante */
+
+@media(min-width:500px) {
+
+    /*GRID AREA INICIO*/
+    .inicio-grid{
+        background-color: #FFF6E5;
+        display: grid;
+        grid-template-areas: 
+        "nav nav"
+        "carousell carousell"
+        "footer footer";
+        grid-template-columns: 1fr 3fr;
+    }
+    
+    /*GRID AREA NOSOTROS*/
+    .nosotros-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav"
+        "header header"
+        "h1 h1"
+        "contenido-nosotros contenido-nosotros"
+        "footer footer";
+    }
+
+    /*GRID AREA VINOS*/
+    .vinos-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav"
+        "header header"
+        "h1 h1"
+        "riesling riesling"
+        "malbec malbec"
+        "tannat tanat"
+        "footer footer";
+        grid-template-columns: 4fr;
+    }
+
+    /*GRID AREA EVENTOS*/
+    .eventos-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav"
+        "header header"
+        "h1 h1"
+        "eventos-img1 eventos-img1"
+        "eventos-p eventos-p"
+        "eventos-img2 eventos-img2"
+        "footer footer";
+    }
+}
+
+@media(min-width:768px){
+
+    /*GRID AREA INICIO*/
+    .inicio-grid{
+        background-color: #FFF6E5;
+        display: grid;
+        grid-template-areas: 
+        "nav nav nav"
+        "carousell carousell carrousel"
+        "footer footer footer";
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .mobile-home{
+        padding: 20px 0px 20px 0px;
+    }
+    
+    /*GRID AREA NOSOTROS*/
+    .nosotros-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "h1 h1 h1"
+        "contenido-nosotros contenido-nosotros contenido-nosotros"
+        "footer footer footer";
+    }
+
+    .nosotros-p{
+        font-size: medium;
+    }
+
+    /*GRID AREA VINOS*/
+    .vinos-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "h1 h1 h1"
+        "riesling riesling riesling"
+        "malbec malbec malbec"
+        "tannat tanat tannat"
+        "footer footer footer";
+        grid-template-columns: 4fr;
+    }
+
+    .riesling-contenido{
+        display:grid;
+        grid-template-areas:
+        "riesling-img riesling-h2"
+        "riesling-img riesling-h41"
+        "riesling-img riesling-p2"
+        "riesling-img riesling-h42"
+        "riesling-img riesling-p3"
+        "riesling-p1 riesling-p1" ;
+        gap: 5px;
+    }
+
+    .riesling{
+        padding: 40px;
+        margin: 40px;
+        border: 2px solid #695A3F;
+        border-radius: 5px;
+    }
+
+    .riesling-img{
+        width: 410px;
+        height: 410px;
+    }
+
+    .riesling-p1{
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .malbec-contenido{
+        display:grid;
+        grid-template-areas:
+        "malbec-h2 malbec-img"
+        "malbec-h41 malbec-img"
+        "malbec-p2 malbec-img"
+        "malbec-h42 malbec-img"
+        "malbec-p3 malbec-img"
+        "malbec-p1 malbec-p1" ;
+        gap: 5px;
+    }
+
+    .malbec{
+        padding: 40px;
+        margin: 40px;
+        border: 2px solid #695A3F;
+        border-radius: 5px;
+    }
+
+    .malbec-img{
+        width: 410px;
+        height: 410px;
+    }
+
+    .malbec-p1{
+        padding: 0px;
+        margin: 0px;
+        text-align: right;
+    }
+
+    .tannat-contenido{
+        display:grid;
+        grid-template-areas:
+        "tannat-img tannat-h2"
+        "tannat-img tannat-h41"
+        "tannat-img tannat-p2"
+        "tannat-img tannat-h42"
+        "tannat-img tannat-p3"
+        "tannat-p1 tannat-p1" ;
+        gap: 5px;
+    }
+
+    .tannat{
+        padding: 40px;
+        margin: 40px;
+        border: 2px solid #695A3F;
+        border-radius: 5px;
+    }
+
+    .tannat-img{
+        width: 410px;
+        height: 410px;
+    }
+
+    .tannat-p1{
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    /*GRID AREA EVENTOS*/
+    .eventos-grid{
+        display: grid;
+        grid-template-areas:
+        "nav nav"
+        "header header"
+        "h1 h1"
+        "eventos-img1 eventos-img1"
+        "eventos-p eventos-p"
+        "eventos-img2 eventos-img2"
+        "footer footer";
+    }
+
+    .eventos-p{
+        font-size: medium;
+    }
+}
+
+@media(min-width:1024px){
+
+    /*INICIO*/
+    .mobile-home{
+        padding: 0px;
+    }
+
+    .img-inicio{
+        padding: 0px;
+    }
+
+    /*NOSOTROS*/
+    .nosotros-img2{
+        padding: 20px 80px 10px 80px;
+    }
+
+    .nosotros-p{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .nosotros-img1{
+        padding: 10px 80px 20px 80px;
+    }
+
+    /*EVENTOS*/
+    .eventos-img1{
+        padding: 20px 80px 10px 80px;
+    }
+
+    .eventos-p{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .eventos-img2{
+        padding: 10px 80px 20px 80px;
+    }
+
+    /*REGISTRATE*/
+    .section-registrate{
+        padding-bottom: 25px;
+    }
+}
